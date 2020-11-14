@@ -1,3 +1,3 @@
 # Cheatsheet
 Cheatsheet for pentester
-الاوامر ماخوذه من Abdallah fouad
+the commands take it from Abdallah fouad

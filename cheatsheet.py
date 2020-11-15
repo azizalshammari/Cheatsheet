@@ -1,7 +1,28 @@
 from colorama import init
 from termcolor import *
 
-cprint("1 - nmap scan:\n2 - Enumeration HTTP:\n3 - MD5 Password Cracking\n4 - SSH Brute force\n5 - Web reverse shell\n6 - LFI Payload\n7 - SQL Payload\n8 - XSS Payload\n9 - Linux SUID,GUID privilege escaltion\n10 - Python Full tty shell\n11 - SSH Tunneling\n12 - Compiling\n13 - Windows buffer overflow ","red")
+cprint("""
+
+                                                                       __                     
+                                                                  ...-'  |`.                  
+                                                                  |      |  |                 
+                                                              _.._....   |  |       .-''''-.  
+.-,.--.     .-''` ''-.        .-''` ''-.         .|         .' .._| -|   |  |      /  .--.  \ 
+|  .-. |  .'          '.    .'          '.     .' |_        | '      |   |  |     /  /    '-' 
+| |  | | /              `  /              `  .'     |     __| |__ ...'   `--'    /  /.--.     
+| |  | |'                ''                ''--.  .-'    |__   __||         |`. /  ' _   \    
+| |  '- |         .-.    ||         .-.    |   |  |   ,.--. | |   ` --------\ |/   .' )   |   
+| |     .        |   |   ..        |   |   .   |  |  //    \| |    `---------' |   (_.'   /   
+| |      .       '._.'  /  .       '._.'  /    |  '.'\\    /| |                 \       '     
+|_|       '._         .'    '._         .'     |   /  `'--' | |                   `----'      
+             '-....-'`         '-....-'`       `'-'         |_|                               
+
+
+                                                                      @Wpii5
+
+""","red")
+
+cprint("1 - nmap scan:\n2 - Enumeration HTTP:\n3 - MD5 Password Cracking\n4 - SSH Brute force\n5 - Web reverse shell\n6 - LFI Payload\n7 - SQL Payload\n8 - XSS Payload\n9 - Linux SUID,GUID privilege escaltion\n10 - Python Full tty shell\n11 - SSH Tunneling\n12 - Compiling\n13 - Windows buffer overflow ","green")
 z = int(input())
 if z == 1:
     print("""Default Scanning 
